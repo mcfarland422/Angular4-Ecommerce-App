@@ -5,9 +5,10 @@ import { NgModule } from "@angular/core";
 import { AppComponent } from "./app.component";
 import { AuthorsComponent } from "./authors/authors.component";
 import { FavoriteComponent } from "./favorite/favorite.component";
+import { TitleCasePipe } from './title-case.pipe';
 
 @NgModule({
-  declarations: [AppComponent, AuthorsComponent, FavoriteComponent],
+  declarations: [AppComponent, AuthorsComponent, FavoriteComponent, TitleCasePipe],
   imports: [BrowserModule],
   providers: [AuthorsService],
   bootstrap: [AppComponent]
