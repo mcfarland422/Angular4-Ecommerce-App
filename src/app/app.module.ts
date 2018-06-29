@@ -4,9 +4,10 @@ import { NgModule } from "@angular/core";
 
 import { AppComponent } from "./app.component";
 import { AuthorsComponent } from "./authors/authors.component";
+import { FavoriteComponent } from "./favorite/favorite.component";
 
 @NgModule({
-  declarations: [AppComponent, AuthorsComponent],
+  declarations: [AppComponent, AuthorsComponent, FavoriteComponent],
   imports: [BrowserModule],
   providers: [AuthorsService],
   bootstrap: [AppComponent]
