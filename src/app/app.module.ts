@@ -7,13 +7,15 @@ import { AppComponent } from "./app.component";
 import { AuthorsComponent } from "./authors/authors.component";
 import { FavoriteComponent } from "./favorite/favorite.component";
 import { TitleCasePipe } from "./title-case.pipe";
+import { PanelComponent } from './panel/panel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AuthorsComponent,
     FavoriteComponent,
-    TitleCasePipe
+    TitleCasePipe,
+    PanelComponent
   ],
   imports: [BrowserModule, FormsModule],
   providers: [AuthorsService],
